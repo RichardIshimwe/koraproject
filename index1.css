@@ -1,0 +1,458 @@
+/* 
+body{
+    margin: 0;
+  }
+  a{
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  .nav_bara ul li a:hover{
+     color: #ff0055;
+     }
+  .nav_bara ul li:hover{
+     background-color: gainsboro;
+     }
+       .line li a{
+        background-color:green;
+        color: green;
+        }
+  .nav_bara{
+  display: block;
+  background-color: #322f30;
+  padding: 9px;
+  width: 100%;
+  }       
+  .nav_bara ul{
+    margin: 0;
+    margin-left: 0;
+  }
+  .nav_bara ul li{
+    display: inline;
+   padding: 10px;
+  }
+  .nav_bar1 {
+    float: right;
+    display: inline;
+    margin-right: 20px;
+    color: whitesmoke;
+  }
+  .nav_barb{
+  display: block;
+  background-color: gainsboro;
+  padding: 9px;
+  width: 100%;
+  }
+  #button1{
+    width: 95px;
+    height: 30px;
+    border: 1px;
+    border-radius: 5px;
+    border-color: grey;
+    margin-left: 40px;
+    background-color: white;
+  }
+  #button2{
+    width: 95px;
+    height: 30px;
+    border: 1px;
+    border-radius: 5px;
+    border-color: grey;
+    margin-left: 20px;
+    background-color: white;
+  }
+  #form1{
+    display: inline;
+  }
+  #search1{
+    margin: 0;
+    float: left;
+  }
+  #gsearch1{
+    float: right;
+    margin-right: 20px;
+  }
+  #gsearch{
+   width: 160px;
+    height: 30px;
+    border: 1px;
+    border-radius: 5px;
+    border-color: grey;
+  }
+  .nav_bar5{
+  display: block;
+  background-color: gray;
+  margin-top:0;
+  height: 108px;
+  width: 100%;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Lato);
+  @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+  body {
+      font-family: 'Lato', sans-serif;
+      color: #FFF;
+      background: black;
+      -webkit-font-smoothing: antialiased;
+  }
+  .nav_bara a
+  a {
+      text-decoration: none;
+      color: #fff;
+  }
+  p > a:hover{
+      color: #d9d9d9;
+      text-decoration:  underline;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      margin:  1% 0 1% 0;
+      margin-right: 0;
+  }
+  ._12 {
+      font-size: 1.2em;
+  }
+  ._14 {
+      font-size: 1.4em;
+  
+  }
+  ul {
+      padding:0;
+      list-style: none;
+  }
+  .footer-social-icons {
+      float: right;
+  }
+  .social-icon {
+      color: #fff;
+  }
+  ul.social-icons {
+      margin-top: 10px;
+  }
+  .social-icons li {
+      vertical-align: top;
+      display: inline;
+      height: 100px;
+  }
+  .social-icons a {
+      color: #fff;
+      text-decoration: none;
+  }
+  .fa-facebook {
+       border: 1;
+       padding: 15px;
+       border-width: 20px;
+       border-radius: 50%;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-facebook:hover {
+      background-color: #3d5b99;
+  }
+  .fa-twitter {
+       border: 1;
+       padding: 15px;
+       border-width: 20px;
+       border-radius: 50%;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-twitter:hover {
+      background-color: #00aced;
+  }
+  .fa-youtube {
+       border: 1;
+       padding: 15px;
+       border-width: 20px;
+       border-radius: 50%;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-youtube:hover {
+      background-color: #e64a41;
+  }
+  .fa-github {
+       border: 1;
+       padding: 15px;
+       border-width: 20px;
+       border-radius: 50%;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-github:hover {
+      background-color: #5a32a3;
+  }
+  /*nav bar
+  .categories ul li{
+    display: none;
+  }
+  .nav_area{
+    width: 100%;
+    height: 50px;
+    background-color:greenyellow;
+  }
+  .nav_area ul{
+    list-style: none;
+  }
+  .nav_area ul li{
+    float: left;
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    line-height: 50px;
+  }
+  .nav_area ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  .nav_area ul li a:hover {
+    background-color: grey;
+    color:black;
+    text-decoration: none;
+    display: block;
+    transition: 80ms ease;
+  }
+  .drop_down ul li{
+  background-color: hotpink;
+  display: none;
+  }
+  .drop_down ul li a:hover{
+    background-color: grey;
+    color:black;
+  }
+  .nav_area ul li:hover ul li{
+      display: block;
+  }*/ */
+/*li {
+  display: inline;
+  float: left;
+  margin: 0;
+}
+.nav_bar{
+  display: block;
+  padding: 9px;
+}
+.nav_bar0 a {
+  color: whitesmoke;
+}
+.nav_bar1 a {
+  float: right;
+  color: white;
+}
+.nav_bar{
+ background-color: black;
+  height: 20px;
+  width: 100%;
+}*/
+body{
+  margin: 0;
+}
+a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+a:hover{
+  color: #ff00ff;
+}
+.nav_bara{
+display: block;
+background-color: #322f30;
+padding: 9px;
+width: 100%;
+}
+ul{
+  margin: 0;
+  margin-left: 0;
+}
+li{
+  display: inline;
+ padding: 10px;
+}
+.nav_bar1 {
+  float: right;
+  display: inline;
+  margin-right: 20px;
+  color: whitesmoke;
+}
+.nav_barb{
+display: block;
+background-color: gainsboro;
+padding: 9px;
+width: 100%;
+}
+#button1{
+  width: 95px;
+  height: 30px;
+  border: 1px;
+  border-radius: 5px;
+  border-color: grey;
+  margin-left: 40px;
+  background-color: white;
+}
+#button2{
+  width: 95px;
+  height: 30px;
+  border: 1px;
+  border-radius: 5px;
+  border-color: grey;
+  margin-left: 20px;
+  background-color: white;
+}
+#form1{
+  display: inline;
+}
+#search1{
+  margin: 0;
+  float: left;
+}
+#gsearch1{
+  float: right;
+  margin-right: 20px;
+}
+#gsearch{
+ width: 160px;
+  height: 30px;
+  border: 1px;
+  border-radius: 5px;
+  border-color: grey;
+}
+.nav_bar5{
+display: block;
+background-color: gray;
+margin-top:0;
+height: 108px;
+width: 100%;
+}
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: black;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+    margin-right: 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    float: right;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+     border: 1;
+     padding: 15px;
+     border-width: 20px;
+     border-radius: 50%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+     border: 1;
+     padding: 15px;
+     border-width: 20px;
+     border-radius: 50%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-youtube {
+     border: 1;
+     padding: 15px;
+     border-width: 20px;
+     border-radius: 50%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-github {
+     border: 1;
+     padding: 15px;
+     border-width: 20px;
+     border-radius: 50%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}

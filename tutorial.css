@@ -1,24 +1,4 @@
-/*li {
-  display: inline;
-  float: left;
-  margin: 0;
-}
-.nav_bar{
-  display: block;
-  padding: 9px;
-}
-.nav_bar0 a {
-  color: whitesmoke;
-}
-.nav_bar1 a {
-  float: right;
-  color: white;
-}
-.nav_bar{
- background-color: black;
-  height: 20px;
-  width: 100%;
-}*/
+
 body{
   margin: 0;
 }
@@ -26,20 +6,24 @@ a{
   color: whitesmoke;
   text-decoration: none;
 }
-a:hover{
-  color: #ff00ff;
-}
+.nav_bara ul li a:hover{
+   color: #ff0055;
+   }
+.nav_bara ul li:hover{
+   color: #ff0055;
+   background-color: gainsboro;
+   }
 .nav_bara{
 display: block;
 background-color: #322f30;
 padding: 9px;
 width: 100%;
-}
-ul{
+}       
+.nav_bara ul{
   margin: 0;
   margin-left: 0;
 }
-li{
+.nav_bara ul li{
   display: inline;
  padding: 10px;
 }
@@ -106,6 +90,7 @@ body {
     background: black;
     -webkit-font-smoothing: antialiased;
 }
+.nav_bara a
 a {
     text-decoration: none;
     color: #fff;
@@ -211,4 +196,46 @@ ul.social-icons {
 }
 .fa-github:hover {
     background-color: #5a32a3;
+}
+/*nav bar*/
+.categories ul li{
+  display: none;
+}
+.nav_area{
+  width: 100%;
+  height: 50px;
+  background-color:greenyellow;
+}
+.nav_area ul{
+  list-style: none;
+}
+.nav_area ul li{
+  float: left;
+  height: 50px;
+  width: 140px;
+  text-align: center;
+  line-height: 50px;
+}
+.nav_area ul li a{
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+.nav_area ul li a:hover {
+  background-color: grey;
+  color:black;
+  text-decoration: none;
+  display: block;
+  transition: 80ms ease;
+}
+.drop_down ul li{
+background-color: hotpink;
+display: none;
+}
+.drop_down ul li a:hover{
+  background-color: grey;
+  color:black;
+}
+.nav_area ul li:hover ul li{
+    display: block;
 }
