@@ -239,3 +239,7 @@ display: none;
 .nav_area ul li:hover ul li{
     display: block;
 }
+#heading12{
+  font-size: x-large;
+  /* color: #00aced; */
+}
